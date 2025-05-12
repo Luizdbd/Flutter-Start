@@ -1,8 +1,9 @@
-void main()
-{
-   final pais = "Brasil"; //Pode ser definida em tempo de execução e não muda depois
-    const pib = 5.3;      //deve ser definido em tempo de compilação e nunca muda 
+void main(){
+  Map<String, List<String>> cursos = {
+    'Matematica': ['Alice', 'Bob', 'Carlos'],
+    'Fisica': ['Ana', 'Joao', 'Lucas'],
+    'Quimica': ['Maria', 'Paula', 'Rafael'],
+  };
 
-    print("País: $pais");
-    print("PIB: $pib");
+  print(cursos);
 }
