@@ -1,7 +1,8 @@
-void main(){
-  List<String> cidades =["Maués","Mananus","Boa Vista"];
+void main()
+{
+   final pais = "Brasil"; //Pode ser definida em tempo de execução e não muda depois
+    const pib = 5.3;      //deve ser definido em tempo de compilação e nunca muda 
 
-  for (var cidades in cidades){
-   print(cidades.toUpperCase());
-  }
+    print("País: $pais");
+    print("PIB: $pib");
 }
