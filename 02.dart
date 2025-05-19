@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void main(){
    const double nivelDeus = 10.0;
    const double aprovado = 8.5;
@@ -17,4 +18,14 @@ void main(){
     }else if(nota >= reprovado && nota < reprovado){
       print('Voce Reprovol!');
     }
+=======
+void main()
+{
+  Map<String, int> idades = {
+    'Alice': 25,
+    'Bruno': 30,
+    'Carlos': 28
+    };
+    print('Idade de Carlos: ${idades["Carlos"]}'); 
+>>>>>>> 00fa19e6a5c15be9a42e8cecf9203759ad83b71c
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void main(){
   int a = 1;
   int s = 0;
@@ -11,4 +12,14 @@ void main(){
     acu = a;
     s = a+acu;
   }
+=======
+void main(){
+  Map<String, List<String>> cursos = {
+    'Matematica': ['Alice', 'Bob', 'Carlos'],
+    'Fisica': ['Ana', 'Joao', 'Lucas'],
+    'Quimica': ['Maria', 'Paula', 'Rafael'],
+  };
+
+  print(cursos);
+>>>>>>> 00fa19e6a5c15be9a42e8cecf9203759ad83b71c
 }
